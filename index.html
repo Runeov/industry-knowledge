@@ -2,9 +2,60 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Admin</title>
-    <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Team Onepage — placeholder description, to be replaced with the real site copy in a later commit." />
+    <title>Team Onepage</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home">Team Onepage</a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Toggle navigation menu"
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+
+        <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+          <ul></ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container">
+          <h1>Team Onepage</h1>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container prose">
+          <h2>About</h2>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2>Contact</h2>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; 2026 Team Onepage.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

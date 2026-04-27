@@ -1,1 +1,23 @@
-﻿scripts/
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Node / tooling (in case anyone adds it later)
+node_modules/
+npm-debug.log*
+
+# Build / cache
+dist/
+.cache/
+
+# Env
+.env
+.env.local
+
+
+# Local-only sprint replay tooling (not part of project history)
+scripts/
