@@ -3,11 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Team Onepage — placeholder description, to be replaced with the real site copy in a later commit." />
-    <title>Team Onepage</title>
+    <meta name="description" content="Team Onepage — a small, accessible one-page site built by a 4-person team during Noroff's Industry Knowledge agile sprint." />
+    <title>Team Onepage — We build small things, well.</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#home">Skip to main content</a>
+
     <header class="site-header">
       <div class="container header-inner">
         <a class="brand" href="#home">Team Onepage</a>
@@ -25,34 +27,105 @@
         </button>
 
         <nav id="primary-nav" class="primary-nav" aria-label="Primary">
-          <ul></ul>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </nav>
       </div>
     </header>
 
     <main>
-      <section id="home" class="hero">
+      <section id="home" class="hero" aria-labelledby="hero-title">
         <div class="container">
-          <h1>Team Onepage</h1>
+          <h1 id="hero-title">We build small things, well.</h1>
+          <p class="tagline">Calm, considered, accessible web work — shipped in tight sprints.</p>
+          <p class="intro">
+            We are a four-person student team practising agile delivery during
+            Noroff's Industry Knowledge module. This page is our Sprint 1
+            deliverable: a clean public site with a small CMS attached.
+          </p>
+          <p>
+            <a class="btn btn-primary" href="#contact">Get in touch</a>
+          </p>
         </div>
       </section>
 
-      <section id="about" class="about">
+      <section id="about" class="about" aria-labelledby="about-title">
         <div class="container prose">
-          <h2>About</h2>
+          <h2 id="about-title">About the team</h2>
+          <p>
+            We are a four-person team built around clear roles: a Scrum Master
+            keeping ceremonies tight, a Developer turning stories into working
+            code, a QA holding the quality bar, and a Designer making the work
+            calm and usable.
+          </p>
+          <p>
+            This site was produced in a one-week sprint as part of Noroff's
+            Industry Knowledge project. The brief was deliberately small so the
+            focus could land on the agile process itself: planning, daily
+            stand-ups, paired review, and a retrospective at the end.
+          </p>
+          <p>
+            The public page you are reading is intentionally minimal. Content
+            lives in plain Markdown files and is editable through a small
+            Netlify CMS admin at <code>/admin/</code>, so non-developers on the
+            team can update copy without touching the codebase.
+          </p>
         </div>
       </section>
 
-      <section id="contact" class="contact">
+      <section id="contact" class="contact" aria-labelledby="contact-title">
         <div class="container">
-          <h2>Contact</h2>
+          <h2 id="contact-title">Contact</h2>
+          <p>
+            Want to talk about the project? Email us at
+            <a href="mailto:hello@team-onepage.example">hello@team-onepage.example</a>.
+          </p>
+
+          <form class="contact-form" action="#" method="post" aria-describedby="form-note">
+            <p id="form-note" class="form-note">
+              <strong>Demo only:</strong> this form does not send anything — it
+              is a static placeholder for the sprint deliverable.
+            </p>
+
+            <fieldset>
+              <legend>Send us a message</legend>
+
+              <div class="field">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required autocomplete="name" />
+              </div>
+
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required autocomplete="email" />
+              </div>
+
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+
+              <button class="btn btn-primary" type="submit">Send message</button>
+            </fieldset>
+          </form>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
       <div class="container footer-inner">
-        <p>&copy; 2026 Team Onepage.</p>
+        <p>&copy; 2026 Team Onepage. Built for Noroff Industry Knowledge.</p>
+        <ul class="footer-links">
+          <li>
+            <a href="https://github.com/Runeov/industry-knowledge" rel="noopener">GitHub repository</a>
+          </li>
+          <li>
+            <a href="admin/">Edit content (admin)</a>
+          </li>
+        </ul>
       </div>
     </footer>
 
