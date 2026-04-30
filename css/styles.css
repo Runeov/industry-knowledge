@@ -393,3 +393,33 @@ code {
     scroll-behavior: smooth;
   }
 }
+
+/* =========================================================
+   Small phones (<= 360px) — fix CTA / hero text overlap
+   Reported as D-01 (blocker) in QA on Wed Apr 29.
+   ========================================================= */
+@media (max-width: 360px) {
+  .hero h1 {
+    font-size: 2rem;
+    letter-spacing: -0.005em;
+  }
+
+  .hero .tagline {
+    font-size: 1rem;
+  }
+
+  .hero {
+    padding: var(--space-6) 0;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    text-align: center;
+  }
+
+  .container {
+    padding: 0 var(--space-3);
+  }
+}
