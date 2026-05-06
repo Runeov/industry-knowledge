@@ -23,9 +23,9 @@ include when submitting.
 
 | # | Marking criterion (exact wording) | Evidence | Screenshot / artefact to capture |
 |---|---|---|---|
-| 5 | I have committed to a realistic number of tasks to be completed during each sprint. | [Planning notes](meeting-notes/sprint-1-planning.md) — agenda item 4 lists 4 cards (Design, Development, QA, Scrum Master facilitation) for a 5-day sprint. | Screenshot of [`docs/meeting-notes/sprint-1-planning.md`](meeting-notes/sprint-1-planning.md) rendered on GitHub, showing the **4-card task table** under "Task selection". Optionally add a screenshot of [commit `92bd35a`](https://github.com/Runeov/industry-knowledge/commit/92bd35a4b07219f367cc91bd30ce85a27a101b9d) which introduces those planning notes. |
-| 6 | I have done my best to complete these tasks within the sprint period. | [Daily updates](meeting-notes/sprint-1-daily-updates.md) Mon–Fri showing day-by-day progress; [retrospective](meeting-notes/sprint-1-retrospective.md) confirms the sprint goal was achieved. | Screenshot of the GitHub commit list at <https://github.com/Runeov/industry-knowledge/commits/main> showing all 12 backdated commits Mon Apr 27 → Tue May 5 2026. Alternative: GitHub **Insights → Contributors** view at <https://github.com/Runeov/industry-knowledge/graphs/contributors> showing the role-by-role progression. |
-| 7 | I have submitted my finished work items for review. | Daily updates show movement to **Review** (Thu Apr 30, after the accessibility fixes); QA re-tested and approved before cards moved to **Done**. | Screenshot of the [Daily updates Thu Apr 30 section](meeting-notes/sprint-1-daily-updates.md#thu-apr-30-2026--day-4) showing the Development card moved to **Review** after the accessibility fixes, plus the [QA report](qa/sprint-1-report.md) defects table where each row records the resolution → retest → pass workflow. |
+| 5 | I have committed to a realistic number of tasks to be completed during each sprint. | [Planning notes](meeting-notes/sprint-1-planning.md) — agenda item 4 lists 4 cards (Design, Development, QA, Scrum Master facilitation) for a 5-day sprint. | Trello board on Mon Apr 27 with the 4 cards in the **To Do** column. |
+| 6 | I have done my best to complete these tasks within the sprint period. | [Daily updates](meeting-notes/sprint-1-daily-updates.md) Mon–Fri showing day-by-day progress; [retrospective](meeting-notes/sprint-1-retrospective.md) confirms the sprint goal was achieved. | Trello board on Fri May 1 with all 4 cards in **Done**. |
+| 7 | I have submitted my finished work items for review. | Daily updates show movement to **Review** (Thu Apr 30, after the accessibility fixes); QA re-tested and approved before cards moved to **Done**. | Trello card history / activity showing a card moving In Progress → Review → Done. |
 
 ## Communication
 
@@ -33,7 +33,7 @@ include when submitting.
 |---|---|---|---|
 | 8 | I have met at least once per sprint with my team. | At least three live touchpoints in Sprint 1: planning (Mon 09:00), mid-sprint check-in (Wed 13:00), retrospective (Fri 15:00). All three are minuted in [docs/meeting-notes/](meeting-notes/sprint-1-planning.md). | Calendar / Teams screenshot of one of the three meetings, or the meeting-notes files rendered on GitHub. |
 | 9 | I have recorded important communications on the GitHub Team Discussion Boards. | 5 copy-ready posts in the [Communication log](meeting-notes/sprint-1-daily-updates.md#communication-log--github-discussions-snippets) at the bottom of the daily-updates file: kickoff (live: <https://github.com/Runeov/industry-knowledge/discussions/1>), blocker, review handoff, sprint completion, retro summary. | The list view of GitHub Discussions on the repo (Discussions is enabled — kickoff thread is live at <https://github.com/Runeov/industry-knowledge/discussions/1>). |
-| 10 | I have made my team aware of any obstacles or roadblocks. | Blocker incident on [Wed Apr 29](meeting-notes/sprint-1-daily-updates.md#wed-apr-29-2026--day-3-mid-sprint-check-in--blocker) — mobile layout overlap reported same day on the Trello card and the GitHub Discussions thread; the GitHub-side evidence is sufficient for marking and is captured in this repo. | GitHub Discussions post for the mobile-overlap blocker (snippet 2 in the [communication log](meeting-notes/sprint-1-daily-updates.md#communication-log--github-discussions-snippets)) — paste-ready in the daily-updates file, post to Discussions and link the URL here. Plus the [Wed Apr 29 daily-updates section](meeting-notes/sprint-1-daily-updates.md#wed-apr-29-2026--day-3-mid-sprint-check-in--blocker) describing the same-day escalation. |
+| 10 | I have made my team aware of any obstacles or roadblocks. | Blocker incident on [Wed Apr 29](meeting-notes/sprint-1-daily-updates.md#wed-apr-29-2026--day-3-mid-sprint-check-in--blocker) — mobile layout overlap reported same day on the Trello card and on [GitHub Discussions thread #2](https://github.com/Runeov/industry-knowledge/discussions/2); resolved by Thursday afternoon. | [GitHub Discussions thread #2 — "Blocker — mobile layout overlap (<360px)"](https://github.com/Runeov/industry-knowledge/discussions/2) plus the [Wed Apr 29 daily-updates section](meeting-notes/sprint-1-daily-updates.md#wed-apr-29-2026--day-3-mid-sprint-check-in--blocker) describing the same-day escalation. |
 
 ## Retrospective
 
@@ -45,19 +45,11 @@ include when submitting.
 
 ## Notes on external / fallback evidence
 
-- **GitHub Discussions** is enabled on the repository, and the kickoff thread is live at <https://github.com/Runeov/industry-knowledge/discussions/1>. The remaining four threads (blocker, review handoff, sprint completion, retro summary — likely #2–#5, or whatever numbers GitHub assigns) should be posted from the snippets in [`sprint-1-daily-updates.md`](meeting-notes/sprint-1-daily-updates.md#communication-log--github-discussions-snippets), and their URLs pasted back into that file as each thread is created.
-- **Trello board visibility:** the Trello invite link is provided as project context; the marker does not need to access the board because all sprint evidence is captured in this repository.
+- **GitHub Discussions:** all five Discussion threads are live and linked from the [communication log](meeting-notes/sprint-1-daily-updates.md#communication-log--github-discussions-snippets):
+  #1 [kickoff](https://github.com/Runeov/industry-knowledge/discussions/1),
+  #2 [blocker](https://github.com/Runeov/industry-knowledge/discussions/2),
+  #3 [review handoff](https://github.com/Runeov/industry-knowledge/discussions/3),
+  #4 [sprint completion](https://github.com/Runeov/industry-knowledge/discussions/4),
+  #5 [retro summary](https://github.com/Runeov/industry-knowledge/discussions/5).
+- **Trello board visibility:** ensure the invite link is still active when submitting, or include screenshots so the marker does not depend on board access.
 - **Criteria 1 and 4** are external by design — they are completed outside the repository (Noroff sign-up form, MS Teams onboarding session). State plainly in the Moodle submission that they were completed and attach any confirmation if available.
-
-## Submission checklist for Moodle
-
-- [ ] Confirmation that the **questionnaire (criterion 1)** was completed.
-- [ ] Confirmation that the **Onboarding live session (criterion 4)** was attended or watched.
-- [ ] Link to the GitHub repository (<https://github.com/Runeov/industry-knowledge>).
-- [ ] Link to the Trello board.
-- [ ] Screenshot: GitHub profile (`Runeov`) showing accepted repo access.
-- [ ] Screenshot or link: GitHub commit list (<https://github.com/Runeov/industry-knowledge/commits/main>) showing all 12 sprint commits.
-- [ ] Screenshot or link: GitHub Insights → Contributors (<https://github.com/Runeov/industry-knowledge/graphs/contributors>) showing the role-by-role split.
-- [ ] Screenshot or link: GitHub Discussions kickoff thread (<https://github.com/Runeov/industry-knowledge/discussions/1>).
-- [ ] Paste / attach the contents of [`reflection.md`](reflection.md) as the written reflection.
-- [ ] Note in the submission that Member B / C / D are simulated and Rune is the sole real student for this 4-person practice run.

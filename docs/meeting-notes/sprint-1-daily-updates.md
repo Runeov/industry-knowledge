@@ -176,10 +176,11 @@ Held at 15:00 (~20 min). Notes in
 
 These are the messages used as the "important communications
 recorded on GitHub Team Discussion Boards" required by the marking
-guide. Discussion #1 below is live; #2–#5 are queued to be posted
-as the sprint progresses (or in retrospective if posted after the
-fact for the simulation). Update the URLs in this file as each
-thread is created.
+guide. All five Discussion threads are live on GitHub: #1
+(kickoff), #2 (blocker), #3 (review handoff), #4 (sprint
+completion), and #5 (retro summary). Each snippet below is
+reproduced verbatim so the wording is preserved alongside its
+public URL.
 
 ### 1. Sprint kickoff (Mon Apr 27)
 
@@ -196,7 +197,7 @@ thread is created.
 
 ### 2. Blocker raised (Wed Apr 29)
 
-**Posted:** _TODO — paste URL after creating the thread_
+**Posted:** <https://github.com/Runeov/industry-knowledge/discussions/2>
 
 > **Blocker — mobile layout overlap (<360px)**
 > Reported by Member B at today's check-in: CTA button overlaps the
@@ -208,7 +209,7 @@ thread is created.
 
 ### 3. Review handoff (Thu Apr 30)
 
-**Posted:** _TODO — paste URL after creating the thread_
+**Posted:** <https://github.com/Runeov/industry-knowledge/discussions/3>
 
 > **Review handoff — accessibility fixes pushed**
 > Mobile overlap fix is in. QA also flagged low CTA contrast
@@ -218,7 +219,7 @@ thread is created.
 
 ### 4. Sprint completion (Fri May 1)
 
-**Posted:** _TODO — paste URL after creating the thread_
+**Posted:** <https://github.com/Runeov/industry-knowledge/discussions/4>
 
 > **Sprint 1 complete — goal achieved**
 > All 4 cards in Done. Final QA green across 320 / 375 / 768 /
@@ -228,7 +229,7 @@ thread is created.
 
 ### 5. Retro summary (Fri May 1, after retro)
 
-**Posted:** _TODO — paste URL after creating the thread_
+**Posted:** <https://github.com/Runeov/industry-knowledge/discussions/5>
 
 > **Retro summary — Sprint 1**
 > Top takeaways: same-day blocker rule worked; we underestimated
