@@ -16,7 +16,7 @@
 > sections, with QA-validated accessibility and responsiveness, and
 > the Netlify CMS admin relocated under `/admin/`.
 
-**Outcome: achieved.** All four Trello cards are in **Done**. Final
+**Outcome: achieved.** All four cards are in **Done**. Final
 QA pass on Friday morning was green across 320 / 375 / 768 / 1024+
 for layout, links, contrast, focus states, keyboard navigation, and
 semantic landmarks. The Netlify CMS admin is reachable at `/admin/`.
@@ -29,14 +29,14 @@ semantic landmarks. The Netlify CMS admin is reachable at `/admin/`.
   small team) was realistic and left slack for the mid-sprint
   blocker.
 - The **same-day blocker rule** worked. The mobile overlap was
-  reported at the Wednesday check-in, logged on Trello and GitHub
+  reported at the Wednesday check-in, logged on the project board and GitHub
   Discussions the same day, and resolved by Thursday afternoon
   without slipping the sprint goal.
 - Cross-role collaboration on the blocker was good: Member D
   contributed a spacing / type-scale suggestion, Member C added
   320 / 375 / 768 / 1024 viewport checks to the QA checklist, and
   Member B applied the CSS fix.
-- Trello columns (**To Do → In Progress → Review → Done**) gave a
+- Project board columns (**To Do → In Progress → Review → Done**) gave a
   clean, shared view of state.
 
 ## What was challenging
@@ -58,7 +58,7 @@ semantic landmarks. The Netlify CMS admin is reachable at `/admin/`.
   day one, not added reactively.
 - Accessibility checks (contrast, focus state, keyboard navigation)
   should run **before** a card moves to **Review**, not after.
-- Logging a blocker the same day on both Trello and GitHub
+- Logging a blocker the same day on both the project board and GitHub
   Discussions made it visible to the whole team without a meeting,
   which kept momentum.
 - A small, concrete sprint goal made trade-off decisions easy when
@@ -82,7 +82,7 @@ semantic landmarks. The Netlify CMS admin is reachable at `/admin/`.
 
 - A small, **specific** sprint goal made every other decision
   easier — strongly recommend writing one before picking tasks.
-- A **same-day blocker rule** (Trello card + Discussions post the
+- A **same-day blocker rule** (project-board card + Discussions post the
   day it appears) avoided "I'll mention it tomorrow" delays.
 - Build the QA / accessibility checklist **before** development
   finishes; otherwise contrast and focus issues land in the last

@@ -32,7 +32,7 @@
 
 - Repo reviewed: it already contains a starter `index.html`,
   `config.yml` for Netlify CMS, and a root `README.md`.
-- Trello board reviewed. The board uses four columns:
+- Project board reviewed. The board uses four columns:
   **To Do → In Progress → Review → Done**.
 
 ### 3. Sprint goal
@@ -50,24 +50,24 @@ one-week sprint with a small team:
 |---|----------------------------|----------|---------------------|
 | 1 | Design — wireframe + style direction | Member D | Team approves a low-fi wireframe and colour/typography direction before development starts. |
 | 2 | Development — build site + relocate CMS admin | Member B | Semantic HTML, mobile-first responsive CSS. Page works at 320 / 375 / 768 / 1024+ widths. CMS admin reachable at `/admin/`. |
-| 3 | QA — manual test checklist | Member C | Checklist covers layout, links, responsiveness, and accessibility basics (contrast, focus states, keyboard navigation, semantic landmarks). Defects logged on Trello and re-tested after fix. |
-| 4 | Scrum Master — facilitation | Rune     | Run planning, mid-sprint check-in, and retrospective. Maintain Trello board. Post key updates on GitHub Discussions. Escalate any blocker on the same day it appears. |
+| 3 | QA — manual test checklist | Member C | Checklist covers layout, links, responsiveness, and accessibility basics (contrast, focus states, keyboard navigation, semantic landmarks). Defects logged on the project board and re-tested after fix. |
+| 4 | Scrum Master — facilitation | Rune     | Run planning, mid-sprint check-in, and retrospective. Maintain the project board. Post key updates on GitHub Discussions. Escalate any blocker on the same day it appears. |
 
 ### 5. Communication and working norms
 
-- Primary task tracking: **Trello board** (link above).
+- Primary task tracking: **the project board** (cards moved through To Do → In Progress → Review → Done).
 - Async written updates and important communications:
   **GitHub Discussions** on the repo.
 - Daily async standup post per member (Yesterday / Today / Blockers).
 - One short live mid-sprint check-in: **Wed Apr 29, 13:00 (~15 min)**.
 - Retrospective: **Fri May 1, 15:00 (~20 min)**.
 - **Blocker rule:** any blocker is reported the same day it is
-  discovered, both on Trello (card) and GitHub Discussions
+  discovered, both on the project board (card) and GitHub Discussions
   (visibility), and the Scrum Master reprioritises immediately.
 
 ## Action items
 
-- [x] Rune — create the four Trello cards with acceptance criteria.
+- [x] Rune — create the four project-board cards with acceptance criteria.
 - [x] Rune — open a GitHub Discussion thread for the sprint kickoff.
 - [x] Member D — start wireframe and style direction (Mon–Tue).
 - [x] Member B — wait for wireframe approval, then begin build.

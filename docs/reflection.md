@@ -14,7 +14,7 @@ facilitate, and document a sprint properly, not just write code. I
 started the week by accepting the GitHub team invitation to
 `Runeov/industry-knowledge` and confirming repository access, then
 ran a short kickoff meeting at 09:00 on Monday to agree the sprint
-goal, the four Trello cards, and the working norms.
+goal, the four cards, and the working norms.
 
 In planning I deliberately kept the scope small: a responsive
 one-page site with hero, about, and contact sections, plus relocating
@@ -31,7 +31,7 @@ Execution went mostly to plan until Wednesday. At the mid-sprint
 check-in on Apr 29, Member B reported that the mobile layout broke
 below about 360px — the CTA button was overlapping the hero text. I
 treated this as a same-day blocker: I logged it on the Development
-Trello card and posted a visibility note on GitHub Discussions that
+project-board card and posted a visibility note on GitHub Discussions that
 afternoon, reprioritised polish work, asked Member D for a quick
 spacing and type-scale suggestion, and asked Member C to add
 explicit 320 / 375 / 768 / 1024 viewport checks to the QA checklist.
@@ -42,7 +42,7 @@ nav links had no visible focus state — both of which were fixed by
 Member B that afternoon and re-tested before the end of the day.
 
 Communication was the part I worked hardest on. Day-to-day status
-lived on Trello so that anyone could see card state at a glance, and
+lived on the project board so that anyone could see card state at a glance, and
 the more important moments — kickoff, the blocker, the review
 handoff with the accessibility fixes, sprint completion, and the
 retro summary — went on GitHub Discussions so they were recorded

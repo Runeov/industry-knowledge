@@ -22,14 +22,13 @@ For project setup and deployment, see the root [README](../README.md).
 | Marking guide category | Criteria | Where evidence lives |
 |---|---|---|
 | Onboarding             | 1–4   | [team.md](team.md), [planning notes](meeting-notes/sprint-1-planning.md); criteria 1 & 4 are external — see [evidence-index.md](evidence-index.md) |
-| Sprint                 | 5–7   | [planning notes](meeting-notes/sprint-1-planning.md), [daily updates](meeting-notes/sprint-1-daily-updates.md), Trello board |
+| Sprint                 | 5–7   | [planning notes](meeting-notes/sprint-1-planning.md), [daily updates](meeting-notes/sprint-1-daily-updates.md), commit history |
 | Communication          | 8–10  | [daily updates](meeting-notes/sprint-1-daily-updates.md) (incl. communication log + Wed blocker section), live meetings |
 | Retrospective          | 11–13 | [retrospective](meeting-notes/sprint-1-retrospective.md), [reflection.md](reflection.md), feedback-to-class-group section |
 
 ## Project links
 
 - GitHub repository: <https://github.com/Runeov/industry-knowledge>
-- Trello board: <https://trello.com/invite/b/682f254acd216accd41830c2/ATTI0af448d96f47833bbcf6f06800f1dc42070E0CE9/overview-rune>
 
 ## Note on team composition
 

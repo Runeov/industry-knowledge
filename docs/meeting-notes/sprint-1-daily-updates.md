@@ -17,7 +17,7 @@ mid-sprint check-in on Wednesday and a retrospective on Friday.
 ### Standups
 
 - **Rune (Scrum Master)**
-  - Yesterday: prepared the Trello board and sprint goal draft.
+  - Yesterday: prepared the project board and sprint goal draft.
   - Today: facilitated planning, created the 4 cards on the board,
     posted kickoff message to GitHub Discussions.
   - Blockers: none.
@@ -38,7 +38,7 @@ mid-sprint check-in on Wednesday and a retrospective on Friday.
 
 ### Scrum Master notes / board changes
 
-- 4 Trello cards created in **To Do**.
+- 4 project-board cards created in **To Do**.
 - Wireframe card moved to **In Progress** by Member D.
 - Kickoff message posted on GitHub Discussions.
 
@@ -91,7 +91,7 @@ mid-sprint check-in on Wednesday and a retrospective on Friday.
 - **Symptom:** CTA button overlaps the hero text below ~360px
   viewport width.
 - **Same-day actions by Scrum Master (Rune):**
-  - Logged the blocker as a comment on the Development Trello card
+  - Logged the blocker as a comment on the Development card
     and posted a visibility note on GitHub Discussions.
   - Reprioritised the Development card to focus on the fix before
     any visual polish.
@@ -124,7 +124,7 @@ mid-sprint check-in on Wednesday and a retrospective on Friday.
 - **Member C** — Today: re-verified the mobile widths. **Two new
   findings:** (1) primary CTA button fails WCAG AA contrast
   (below 4.5:1); (2) nav links have no visible focus state. Both
-  logged on Trello and re-verified after the fix.
+  logged on the project board and re-verified after the fix.
 - **Member D** — Today: provided a darker accessible colour for the
   CTA and a focus-state style suggestion.
 
@@ -161,7 +161,7 @@ mid-sprint check-in on Wednesday and a retrospective on Friday.
 ### Sprint summary
 
 - Sprint goal **achieved**.
-- All 4 Trello cards now in **Done**.
+- All 4 cards now in **Done**.
 - Site delivered: responsive hero / about / contact, accessibility
   issues resolved, CMS admin cleanly relocated to `/admin/`.
 
@@ -191,8 +191,8 @@ public URL.
 > Goal: deliver a responsive one-page site (hero / about / contact)
 > with QA-validated accessibility and the Netlify CMS admin
 > relocated under `/admin/`.
-> 4 cards on the Trello board, owners assigned. Mid-sprint check-in
-> Wed 13:00, retro Fri 15:00. Blockers go on Trello + here the same
+> 4 cards on the project board, owners assigned. Mid-sprint check-in
+> Wed 13:00, retro Fri 15:00. Blockers go on the project board + here the same
 > day. — Rune (SM)
 
 ### 2. Blocker raised (Wed Apr 29)

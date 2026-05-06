@@ -9,7 +9,6 @@
 - **Dates:** Mon Apr 27, 2026 → Fri May 1, 2026
 - **Working week:** 5 days (Mon–Fri)
 - **Repository:** <https://github.com/Runeov/industry-knowledge>
-- **Trello board:** <https://trello.com/invite/b/682f254acd216accd41830c2/ATTI0af448d96f47833bbcf6f06800f1dc42070E0CE9/overview-rune>
 
 ## Members
 
@@ -34,7 +33,7 @@ each member should accept the GitHub team invitation themselves.
 
 ## Role responsibilities (Sprint 1)
 
-- **Scrum Master (Rune)** — facilitate ceremonies, maintain Trello
+- **Scrum Master (Rune)** — facilitate ceremonies, maintain the project
   board, post key updates to GitHub Discussions, escalate blockers
   same-day.
 - **Developer (Member B)** — implement the responsive one-page site

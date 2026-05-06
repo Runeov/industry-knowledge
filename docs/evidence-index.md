@@ -7,7 +7,6 @@ Moodle submission), and to the screenshot or artefact you should
 include when submitting.
 
 > Repo: <https://github.com/Runeov/industry-knowledge>
-> Trello: <https://trello.com/invite/b/682f254acd216accd41830c2/ATTI0af448d96f47833bbcf6f06800f1dc42070E0CE9/overview-rune>
 > Member B / C / D are simulated. Rune (`Runeov`) is the real student.
 
 ## Onboarding
@@ -33,7 +32,7 @@ include when submitting.
 |---|---|---|---|
 | 8 | I have met at least once per sprint with my team. | At least three live touchpoints in Sprint 1: planning (Mon 09:00), mid-sprint check-in (Wed 13:00), retrospective (Fri 15:00). All three are minuted in [docs/meeting-notes/](meeting-notes/sprint-1-planning.md). | Calendar / Teams screenshot of one of the three meetings, or the meeting-notes files rendered on GitHub. |
 | 9 | I have recorded important communications on the GitHub Team Discussion Boards. | 5 copy-ready posts in the [Communication log](meeting-notes/sprint-1-daily-updates.md#communication-log--github-discussions-snippets) at the bottom of the daily-updates file: kickoff (live: <https://github.com/Runeov/industry-knowledge/discussions/1>), blocker, review handoff, sprint completion, retro summary. | The list view of GitHub Discussions on the repo (Discussions is enabled — kickoff thread is live at <https://github.com/Runeov/industry-knowledge/discussions/1>). |
-| 10 | I have made my team aware of any obstacles or roadblocks. | Blocker incident on [Wed Apr 29](meeting-notes/sprint-1-daily-updates.md#wed-apr-29-2026--day-3-mid-sprint-check-in--blocker) — mobile layout overlap reported same day on the Trello card and on [GitHub Discussions thread #2](https://github.com/Runeov/industry-knowledge/discussions/2); resolved by Thursday afternoon. | [GitHub Discussions thread #2 — "Blocker — mobile layout overlap (<360px)"](https://github.com/Runeov/industry-knowledge/discussions/2) plus the [Wed Apr 29 daily-updates section](meeting-notes/sprint-1-daily-updates.md#wed-apr-29-2026--day-3-mid-sprint-check-in--blocker) describing the same-day escalation. |
+| 10 | I have made my team aware of any obstacles or roadblocks. | Blocker incident on [Wed Apr 29](meeting-notes/sprint-1-daily-updates.md#wed-apr-29-2026--day-3-mid-sprint-check-in--blocker) — mobile layout overlap reported same day on [GitHub Discussions thread #2](https://github.com/Runeov/industry-knowledge/discussions/2); resolved by Thursday afternoon. | [GitHub Discussions thread #2 — "Blocker — mobile layout overlap (<360px)"](https://github.com/Runeov/industry-knowledge/discussions/2) plus the [Wed Apr 29 daily-updates section](meeting-notes/sprint-1-daily-updates.md#wed-apr-29-2026--day-3-mid-sprint-check-in--blocker) describing the same-day escalation. |
 
 ## Retrospective
 
@@ -51,7 +50,6 @@ include when submitting.
   #3 [review handoff](https://github.com/Runeov/industry-knowledge/discussions/3),
   #4 [sprint completion](https://github.com/Runeov/industry-knowledge/discussions/4),
   #5 [retro summary](https://github.com/Runeov/industry-knowledge/discussions/5).
-- **Trello board visibility:** the Trello invite link is provided as project context; the marker does not need to access the board because all sprint evidence is captured in this repository.
 - **Criteria 1 and 4** are external by design — they are completed outside the repository (Noroff sign-up form, MS Teams onboarding session). State plainly in the Moodle submission that they were completed and attach any confirmation if available.
 
 ## Submission checklist for Moodle
@@ -59,7 +57,6 @@ include when submitting.
 - [ ] Confirmation that the **questionnaire (criterion 1)** was completed.
 - [ ] Confirmation that the **Onboarding live session (criterion 4)** was attended or watched.
 - [ ] Link to the GitHub repository (<https://github.com/Runeov/industry-knowledge>).
-- [ ] Link to the Trello board.
 - [ ] Screenshot: GitHub profile (`Runeov`) showing accepted repo access.
 - [ ] Screenshot or link: GitHub commit list (<https://github.com/Runeov/industry-knowledge/commits/main>) showing all 12 sprint commits.
 - [ ] Screenshot or link: GitHub Insights → Contributors (<https://github.com/Runeov/industry-knowledge/graphs/contributors>) showing the role-by-role split.

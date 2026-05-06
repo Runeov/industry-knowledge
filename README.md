@@ -15,7 +15,6 @@ where to find the proof, all in under a minute of reading.
 ## Project links
 
 - **GitHub repo:** https://github.com/Runeov/industry-knowledge
-- **Trello board:** https://trello.com/invite/b/682f254acd216accd41830c2/ATTI0af448d96f47833bbcf6f06800f1dc42070E0CE9/overview-rune
 - **Course:** Industry Knowledge (FM2AJIK05) — Noroff Vocational College, Frontend Year 2
 
 ## Team
